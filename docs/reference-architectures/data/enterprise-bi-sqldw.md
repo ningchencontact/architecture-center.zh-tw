@@ -11,13 +11,13 @@ ms.lasthandoff: 04/16/2018
 ---
 # <a name="enterprise-bi-with-sql-data-warehouse"></a>具 SQL 資料倉儲的 Enterprise BI
  
-此參考架構會實作 [ELT](../../data-guide/relational-data/etl.md#extract-load-and-transform-elt) (擷取-載入-轉換) 管線，將資料從內部部署 SQL Server 資料庫移至 SQL 資料倉儲，並轉換資料以供分析。 [**部署這個解決方案**。](#deploy-the-solution)
+此參考架構會實作 [ELT](../../data-guide/relational-data/etl.md#extract-load-and-transform-elt) (擷取-載入-轉換) 管線，將資料從內部部署 SQL Server 資料庫移至 SQL 資料倉儲，並轉換資料以供分析。 [**部署此解決方案**。](#deploy-the-solution)
 
 ![](./images/enterprise-bi-sqldw.png)
 
-**案例**：組織具有在內部部署的 SQL Server 資料庫中儲存的大型 OLTP 資料集。 組織想要使用 SQL 資料倉儲，透過 Power BI 執行分析。 
+**案例**：針對大型 OLTP 資料集儲存在內部部署的 SQL Server 資料庫中的組織。 該組織想透過 Power BI 執行分析 SQL 資料倉儲，。 
 
-此參考架構是針對一次性或隨需作業而設計的。 如果您需要持續移動資料 (每小時或每日)，建議您使用 Azure Data Factory 來定義自動化工作流程。
+此參考架構是針對一次性或隨需作業而設計的。 如果您需要持續移動資料 (每小時或每日)，建議您使用 Azure Data Factory 來執行自動化工作流程。
 
 ## <a name="architecture"></a>架構
 
